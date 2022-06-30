@@ -37,6 +37,7 @@ int main()
     l.pop_back();       // 2 5
 
     /************ insert() ***************/
+    // insert at the iterator position
     // insert(pos_iter, ele_num, ele)
     list<int> l = {10, 20, 30};
     auto itr = l.begin();
